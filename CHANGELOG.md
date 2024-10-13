@@ -1,0 +1,4 @@
+- 0.2.0
+  - Current iteration number is now saved to the savefile
+  - Current iteration number is now displayed on the bottom-right
+- 0.1.0 - Initial Release

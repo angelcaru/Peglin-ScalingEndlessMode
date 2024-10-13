@@ -11,9 +11,9 @@ $(TARGET_RELEASE): ScalingEndlessMode.csproj $(ALLCODE)
 	dotnet build --configuration Release
 release: $(TARGET_RELEASE)
 
-ScalingEndlessMode.zip: $(TARGET_RELEASE) icon.png README.md manifest.json
+ScalingEndlessMode.zip: $(TARGET_RELEASE) icon.png README.md CHANGELOG.md manifest.json
 	rm -f ScalingEndlessMode.zip
-	zip -j ScalingEndlessMode.zip $(TARGET_RELEASE) icon.png README.md manifest.json
+	zip -j ScalingEndlessMode.zip $(TARGET_RELEASE) icon.png README.md CHANGELOG.md manifest.json
 zip: ScalingEndlessMode.zip
 
 all: debug release zip

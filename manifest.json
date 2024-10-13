@@ -1,7 +1,7 @@
 {
   "name": "ScalingEndlessMode",
   "description": "When you beat the Act 3 boss, get sent back to act 1 with your orbs and relics intact and double enemy health",
-  "version_number": "0.1.0",
+  "version_number": "0.2.0",
   "dependencies": [
     "BepInEx-BepInExPack_Peglin-5.4.2100"
   ],
